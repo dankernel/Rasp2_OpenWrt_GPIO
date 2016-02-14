@@ -1,0 +1,7 @@
+
+
+#. Makefile
+Have to change 'KDIR =' on Makefile
+
+GPIO_PIN17 : Read signal
+GPIO_PIN4 : Wirt signal

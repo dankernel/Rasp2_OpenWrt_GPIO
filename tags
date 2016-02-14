@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GPIO_INPUT	dk_main.c	49;"	d	file:
+GPIO_OUTPUT	dk_main.c	50;"	d	file:
+GPIO_PIN17	dk_main.c	47;"	d	file:
+GPIO_PIN4	dk_main.c	46;"	d	file:
+GPIO_control	dk_main.c	/^void GPIO_control(const int GPIO_NUM, const int GPIO_IO, int *val)$/;"	f
+GPIO_direction_init	dk_main.c	/^void GPIO_direction_init(const int GPIO_NUM, const int GPIO_IO)$/;"	f
+GPIO_free	dk_main.c	/^void GPIO_free(void)$/;"	f
+KDIR	Makefile	/^KDIR = ..\/openwrt\/build_dir\/target-arm_cortex-a7+neon-vfpv4_musl-1.1.11_eabi\/linux-brcm2708_bcm2709\/linux-4.1.11$/;"	m
+__this_module	dk_main.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	dk_main.mod.c	/^__used$/;"	v	file:
+callback	dk_table.h	/^  int callback;$/;"	m	struct:ikp_node
+cleanup_module	dk_main.c	/^void cleanup_module(void)$/;"	f
+dk_workqueue	dk_main.c	/^static struct workqueue_struct *dk_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+dkdk_tmp_get	dk_main.c	/^void dkdk_tmp_get(void)$/;"	f
+file_open	dk_main.c	/^struct file *file_open(const char* path, int flags, int rights) {$/;"	f
+file_read	dk_main.c	/^int file_read(struct file* file, unsigned long long offset, unsigned char* data, unsigned int size) {$/;"	f
+file_write	dk_main.c	/^int file_write(struct file* file, unsigned long long offset, unsigned char* data, unsigned int size) {$/;"	f
+ikp_node	dk_table.h	/^struct ikp_node {$/;"	s
+init_ipk_talbe	dk_table.c	/^int init_ipk_talbe(void)$/;"	f
+init_module	dk_main.c	/^int init_module(void)$/;"	f
+interrupt_function	dk_main.c	/^void interrupt_function(void)$/;"	f
+interupt_work_func	dk_main.c	/^void interupt_work_func(struct work_struct *data)                                        $/;"	f
+ipk_node_add	dk_table.c	/^struct ipk_node *ipk_node_add(unsigned int sensor, unsigned int noti, int *f)$/;"	f
+ipk_node_alloc	dk_table.c	/^struct ipk_node *ipk_node_alloc(unsigned int sensor, unsigned int noti, int *f)$/;"	f
+ipk_table	dk_table.h	/^struct ipk_table ipk_table;$/;"	v	typeref:struct:ipk_table
+ipk_table	dk_table.h	/^struct ipk_table {$/;"	s
+irq_num	dk_main.c	/^int irq_num = 0;$/;"	v
+list	dk_table.h	/^  struct list_head list;$/;"	m	struct:ipk_table	typeref:struct:ipk_table::list_head
+list_node	dk_table.h	/^  struct list_head list_node;$/;"	m	struct:ikp_node	typeref:struct:ikp_node::list_head
+noti	dk_table.h	/^  unsigned int noti;$/;"	m	struct:ikp_node
+num	dk_table.h	/^  int num;$/;"	m	struct:ikp_node
+obj-m	Makefile	/^obj-m := dk_main.o dk_table.o$/;"	m
+read_tmpdk	dk_main.c	/^int read_tmpdk(void)$/;"	f
+sensor	dk_table.h	/^  unsigned int sensor;$/;"	m	struct:ikp_node
+sys_dk_world	dk_main.c	/^int sys_dk_world(void *data)$/;"	f

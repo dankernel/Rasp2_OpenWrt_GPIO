@@ -1,0 +1,1 @@
+cmd_/home/dkdk/code/openwrt/module2/dk_main.ko := arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds -s --build-id  -o /home/dkdk/code/openwrt/module2/dk_main.ko /home/dkdk/code/openwrt/module2/dk_main.o /home/dkdk/code/openwrt/module2/dk_main.mod.o
